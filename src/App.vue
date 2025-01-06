@@ -10,6 +10,7 @@
 import Navbar from './components/Navbar.vue';
 import Features from './components/Features.vue';
 import Footer from './components/Footer.vue';
+
 </script>
 
 <style>
