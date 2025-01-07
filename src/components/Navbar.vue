@@ -4,7 +4,9 @@
       <div class="container mx-auto flex justify-between items-center px-6 py-4">
         <a href="#" class="flex items-center">
                     <img src="/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo">
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Landwind</span>
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+    Landwind
+  </span>
                 </a>
 
         <!-- Navigation Links -->

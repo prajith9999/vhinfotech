@@ -4,10 +4,15 @@
   <div class="container mx-auto flex flex-col lg:flex-row items-center bg-white">
     <!-- Content Section -->
     <div class="lg:w-1/2 text-left lg:pr-10 mb-10 lg:mb-0">
-      <h1 class="text-5xl font-bold text-gray-800 mb-4">Building digital products & brands.</h1>
-      <p class="text-gray-600 max-w-xl mb-6">
-        This free and open-source landing page template was built using the utility classes from Tailwind CSS and based on the components from the Flowbite Library and the Blocks System.
-      </p>
+      <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+    Building digital <br />products &amp;brands.
+  </h1>
+  <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+    This free and open-source landing page template was built using the utility classes from 
+    <a href="https://tailwindcss.com" class="hover:underline">Tailwind CSS</a> and based on the components from the 
+    <a href="https://flowbite.com/docs/getting-started/introduction/" class="hover:underline">Flowbite Library</a> 
+    and the <a href="https://flowbite.com/blocks/" class="hover:underline">Blocks System</a>.
+  </p>
       <div class="flex space-x-4">
         <a href="#" class="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700">View on GitHub</a>
         <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Get Figma file</a>
@@ -429,6 +434,7 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -460,6 +466,13 @@ export default {
   }
 };
 </script>
+
+<scrip> 
+export default {
+  name: "DescriptionParagraph",
+};
+
+</scrip>
 
 <style scoped>
 
