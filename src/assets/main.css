@@ -1,15 +1,14 @@
 
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  font-weight: normal;
-}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: white;
 }
+
 img, video {
   max-width: 100%;
   height: auto;

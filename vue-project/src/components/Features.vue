@@ -3,17 +3,15 @@
     <section class="bg-white dark:bg-gray-900">
         <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-black">
-  Building digital <br> products &amp; brands.
-</h1>
-
-<p class="max-w-2xl mb-6 font-light text-black font-sans lg:mb-8 md:text-lg lg:text-xl">
-  This free and open-source landing page template was built using the utility classes from 
-  <a href="#" class="hover:underline">Tailwind CSS</a> and based on the components from the 
-  <a href="#" class="hover:underline">Flowbite Library</a> and the 
-  <a href="#" class="hover:underline">Blocks System</a>.
-</p>
-
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+                    Building digital <br>products &amp; brands.</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">This
+                    free and open-source landing page template was built using the utility classes from <a
+                        href="#" class="hover:underline">Tailwind CSS</a> and based on the
+                    components from the <a href="#"
+                        class="hover:underline">Flowbite Library</a> and the <a href="#"
+                        class="hover:underline">Blocks System</a>.</p>
                 <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                     <a href="#"
                         class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
@@ -258,7 +256,7 @@
 
 
     <section class="bg-white dark:bg-gray-900">
-l̥        <div
+        <div
             class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
             <div class="col-span-2 mb-8">
                 <p class="text-lg font-medium text-purple-600 dark:text-purple-500">Trusted Worldwide</p>
@@ -586,41 +584,8 @@ l̥        <div
         </div>
     </section>
 
+
     <section class="bg-white dark:bg-gray-900">
-  <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6">
-    <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
-      Frequently asked questions
-    </h2>
-    <div class="max-w-screen-md mx-auto">
-      <div id="accordion-flush" data-accordion="collapse" 
-           data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" 
-           data-inactive-classes="text-gray-500 dark:text-gray-400">
-        
-        <div v-for="(item, index) in faqItems" :key="index">
-          <h3 :id="'accordion-flush-heading-' + index">
-            <button @click="toggleAccordion(index)" 
-                    :aria-expanded="item.isOpen.toString()" 
-                    :aria-controls="'accordion-flush-body-' + index"
-                    class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white">
-              <span>{{ item.question }}</span>
-              <svg :class="{'rotate-180': item.isOpen}" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-              </svg>
-            </button>
-          </h3>
-          <div v-show="item.isOpen" :id="'accordion-flush-body-' + index" class="py-5 border-b border-gray-200 dark:border-gray-700">
-            <div v-for="(answer, i) in item.answers" :key="i" class="mb-2 text-gray-500 dark:text-gray-400">
-              {{ answer }}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="bg-white dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
             <h2
                 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
@@ -791,5 +756,3 @@ export default {
 
 /* Add custom styles if needed */
 </style>
-
-
