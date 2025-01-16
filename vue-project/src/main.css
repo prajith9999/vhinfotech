@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.w-full {
-    width: 100%;
-}
-.fixed {
-    position: fixed;
-}
-
-
-
 
 
   

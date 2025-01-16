@@ -1,13 +1,11 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    './index.html',
+    './src/**/*.{vue,js,ts,jsx,tsx}',
+  ],
   theme: {
-    extend: {
-      container: {
-        center: true,  // Centers the container
-        padding: '1rem',  // Adds padding inside the container
-      },
-    },
+    extend: {},
   },
-  variants: {},
   plugins: [],
-}
+};

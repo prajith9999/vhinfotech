@@ -1,0 +1,28 @@
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1; /* Fully opaque */
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity)); /* Full white color */
+}
+
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* src/assets/styles.css */
+
+body {
+  background-color: rgba(255, 255, 255, 1); /* White background */
+  color: #504c4c; /* Text color for better contrast */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
